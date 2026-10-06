@@ -1,0 +1,9 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pulse Timer">
+  <rect x="10" y="10" width="492" height="492" rx="104" fill="#f3ecdd" stroke="#2c2824" stroke-width="14"/>
+  <g stroke="#2c2824" stroke-width="13" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="226" y="92" width="60" height="34" rx="8" fill="#d9b152"/>
+    <path d="M256 126 V146"/>
+    <circle cx="256" cy="282" r="136" fill="#aebf86"/>
+    <path d="M140 282 H192 L216 232 L250 340 L282 206 L310 300 L326 282 H372" stroke-width="15"/>
+  </g>
+</svg>

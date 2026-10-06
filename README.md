@@ -1,36 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center"><img src=".github/icon.svg" width="88" alt=""></p>
+<h1 align="center">Pulse Timer</h1>
+<p align="center"><a href="https://pulsetimer.elijahfrost.com">pulsetimer.elijahfrost.com</a></p>
 
-## Getting Started
+Pulse Timer is a browser timer with three tabs. The interval timer splits a session into repeating rings, and a variability slider randomizes how long each ring lasts, so the cue arrives at an unpredictable moment, while a pattern editor sets fixed phase lengths instead. The other two tabs are a standard countdown timer and a stopwatch.
 
-First, run the development server:
+The app keeps the screen awake while a timer runs, remembers settings in local storage, and supports Space, Enter, and Escape as keyboard shortcuts. It plays `public/sounds/chime.mp3` at each ring, so that file has to be present for the interval timer to make a sound.
+
+## Run it locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The app runs at http://localhost:3000. Built with Next.js 14, React, TypeScript, and Tailwind CSS, and deployed on Vercel.

@@ -4,7 +4,7 @@
 
 Pulse Timer is a browser timer with three tabs. The interval timer splits a session into repeating rings, and a variability slider randomizes how long each ring lasts, so the cue arrives at an unpredictable moment, while a pattern editor sets fixed phase lengths instead. The other two tabs are a standard countdown timer and a stopwatch.
 
-The app keeps the screen awake while a timer runs, remembers settings in local storage, and supports Space, Enter, and Escape as keyboard shortcuts. It plays `public/sounds/chime.mp3` at each ring, so that file has to be present for the interval timer to make a sound.
+The app keeps the screen awake while a timer runs, remembers settings in local storage, and supports Space, Enter, and Escape as keyboard shortcuts. The app plays `public/sounds/chime.m4a` at each ring.
 
 ## Run it locally
 

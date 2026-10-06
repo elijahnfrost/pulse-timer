@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect } from "react";
 
-const CHIME_URL = "/sounds/chime.mp3";
+const CHIME_URL = "/sounds/chime.m4a";
 
 export type AlertKind = "interval" | "timerComplete";
 
